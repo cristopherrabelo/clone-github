@@ -8,7 +8,7 @@ import ProfileData from '../../components/ProfileData';
 import RepoCard from '../../components/RepoCard';
 import RandomCalendar from '../../components/RandomCalendar';
 
-import { APIUser, APIRepo } from '../../@types';
+import { APIUser, APIRepo } from '../../types';
 
 interface Data {
   user?: APIUser;
@@ -111,8 +111,8 @@ const Profile: React.FC = () => {
             </div>
           </Repos>
 
-          <CalendarHeading>
-            Random calendar (do not represent actual data)
+          <CalendarHeading> 
+            <span>Random calendar (do not represent actual data)</span>
           </CalendarHeading>
 
           <RandomCalendar />

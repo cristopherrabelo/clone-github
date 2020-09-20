@@ -12,7 +12,7 @@ import {
   GithubIcon,
 } from './styles';
 
-import { APIRepo } from '../../@types';
+import { APIRepo } from '../../types';
 
 interface Data {
   repo?: APIRepo;

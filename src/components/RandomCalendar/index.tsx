@@ -33,7 +33,7 @@ const RandomCalendar: React.FC = () => {
          />
        </div>
 
-     <span> Random calendar (do not represent acutl data)</span>
+     <span>Random calendar (do not represent acutl data)</span>
      
    </Container>
   );

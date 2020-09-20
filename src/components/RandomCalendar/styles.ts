@@ -36,6 +36,7 @@ export const Container = styled.div`
       margin-top: -25px;
       margin-left: 7px;
       padding-bottom: 16px;
+      
       align-self: flex-start;
   }
 `;

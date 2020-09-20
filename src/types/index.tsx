@@ -1,10 +1,10 @@
-export interface APiUser{
+export interface APIUser{
     login: string;
     name: string;
     followers: number;
     following: number;
     public_repos: number;
-    avar_url: string;
+    avatar_url: string;
     blog?: string;
     company?: string;
     email?: string;

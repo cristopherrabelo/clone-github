@@ -18,16 +18,8 @@ interface Props {
 } 
 
 const ProfileData: React.FC<Props> = ({
-    username,
-    name,
-    avatarUrl,
-    followers,
-    following,
-    company,
-    location,
-    email,
-    blog,
-}) => {
+    username, name, avatarUrl, followers, following,
+    company, location, email, blog }) => {
   return (
       <Container>
         <Flex>
