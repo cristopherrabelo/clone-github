@@ -28,7 +28,12 @@ export const Container = styled.div`
     }
 
     width: 893px;
+    
   }
+
+  svg{
+      font-size: 10px;   
+    }
 
   span{
       font-size: 11px;
